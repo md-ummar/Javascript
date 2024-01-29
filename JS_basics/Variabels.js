@@ -12,4 +12,12 @@ let age = 23; // number
 
 let name = "hitesh"; //string
 
+let isBoolean = true; //boolean
+
+let address;  //undefined
+
+let salary = null //null datatype; type of null is object
+
+
+
 console.log(typeof(name));
