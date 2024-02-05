@@ -49,4 +49,15 @@ const twoAdd = (num1, num2) => {
 
 //Implicit return: no need to have return keyword when using braces
 
-const threeAdd = (num1, num2, num3) => (num1+num2+num3) //return is not used
+//const threeAdd = (num1, num2, num3) => (num1+num2+num3) //return is not used
+
+//Immediately invoked functions expressions (IIFE)
+
+(function chai(){
+    //named IIFE
+    console.log(`DB CONNECTED`);
+})();
+
+//IIFE with arrow functions
+//unnamed IIFE with parameters
+((name)=>(console.log(`DB CONNECTED 2 ${name}`)))("hitesh")
