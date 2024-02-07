@@ -65,4 +65,41 @@ for (const key in program) {
 
 const coding= ["js","ruby","python","cpp"]
 
-coding.forEach
+/* coding.forEach( function name(items){
+    console.log(items)
+})*/
+
+//coding.forEach( (val) => {
+   // console.log(val);
+// })
+
+//function printMe(items){
+    //console.log(items);
+//}
+//coding.forEach(printMe) //passing the function reference  
+
+//for each loops can also fetch the index and whole array 
+//coding.forEach( (items,index, arr)=>{
+//    console.log(items,index,arr);
+//})
+
+//In array when we have multiple objects we can iterate through them using for each
+const myCoding = [
+    {
+        languageName: "Javascript",
+        languagefile: "js"
+    },
+    {
+        languageName: "Java",
+        languagefile: "java"
+    },
+    {
+        languageName: "python",
+        languagefile: "py"
+    }
+    
+]
+
+myCoding.forEach( (items) =>{
+    console.log(items.languagefile)
+})
