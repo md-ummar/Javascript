@@ -84,7 +84,7 @@ const coding= ["js","ruby","python","cpp"]
 //})
 
 //In array when we have multiple objects we can iterate through them using for each
-const myCoding = [
+/* const myCoding = [
     {
         languageName: "Javascript",
         languagefile: "js"
@@ -98,8 +98,11 @@ const myCoding = [
         languagefile: "py"
     }
     
-]
+]*/
 
-myCoding.forEach( (items) =>{
+/*myCoding.forEach( (items) =>{
     console.log(items.languagefile)
 })
+*/
+
+//for each method does not return any values, it only loops through array
